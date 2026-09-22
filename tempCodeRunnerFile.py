@@ -1,14 +1,4 @@
-def main():
-    name = "Dumb"
-    othername = "Dumber"
-
-    function_with_args(name)
-    function_with_args(othername)
-
-    # for ints in python, just: x = 5 
-    # no camel case, but use underscores: more_than
-    # CANNOT start w number, special char, no keywords like and if true false for variables
-    #careful with int list , str
+#careful with int list , str
 
     # int x= 5, floats: x = 500.1, complex: x = 30j
 
@@ -41,32 +31,3 @@ def main():
     print(type(number))
     print(f"our out put is {number}")
     name_of_function()
-
-def name_of_function():
-    # sample function to show structure
-    print("good example!")
-
-
-
-
-
-
-    # sample function to show structure
-    print(f"arg1 is {arg1} and arg2 is {arg2}")
-
-
-
-
-def function_with_args(name):
-     print(f"hello {name}!")
-
-
-
-if __name__ == "__main__":
-    main()
-
-    
-
-
-
-
